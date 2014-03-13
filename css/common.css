@@ -4,3 +4,11 @@
 .regblock {
     width: 100%;
 }
+form div.loghead {
+    font-size: 10   pt;
+    font-style: italic;
+    font-color: #5c62d8;
+}
+.logo a img {
+    border: 0px;
+}
