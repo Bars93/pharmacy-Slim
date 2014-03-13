@@ -33,16 +33,17 @@ $app = new \Slim\Slim();
 // GET route
 $app->get(
     '/',
-    function () {          
+    function () {
+        
 	echo "Hello";
     }
 );
 
 // POST route
-$app->post(
-    '/post',
-    function () {
-        echo 'This is a POST route';
+$app->get(
+    '/user/:id',
+    function ($id) {
+        echo "Hello, ID - $id!";
     }
 );
 
