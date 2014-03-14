@@ -158,29 +158,35 @@
         ]
     },
     {
-        "name": "slim/extras",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
+        "name": "slim/views",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "target-dir": "Slim/Views",
         "source": {
             "type": "git",
-            "url": "https://github.com/codeguy/Slim-Extras.git",
-            "reference": "e9e0ca18b4b92cee4e6d35eadd986ec9f783a34c"
+            "url": "https://github.com/codeguy/Slim-Views.git",
+            "reference": "8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/codeguy/Slim-Extras/zipball/e9e0ca18b4b92cee4e6d35eadd986ec9f783a34c",
-            "reference": "e9e0ca18b4b92cee4e6d35eadd986ec9f783a34c",
+            "url": "https://api.github.com/repos/codeguy/Slim-Views/zipball/8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371",
+            "reference": "8c7e0f3067e5e10b7b4ca98f29bdef8d5cfe5371",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.2.0"
+            "php": ">=5.3.0",
+            "slim/slim": ">=2.4.0"
         },
-        "time": "2012-02-23 16:10:48",
+        "suggest": {
+            "smarty/smarty": "Smarty templating system",
+            "twig/twig": "Twig templating system"
+        },
+        "time": "2013-12-08 10:18:35",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-0": {
-                "Twig_Extensions_": "Views/Extension/"
+                "Slim\\Views": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -199,10 +205,11 @@
                 "homepage": "http://www.joshlockhart.com/"
             }
         ],
-        "description": "Extras package for Slim Framework",
-        "homepage": "http://github.com/codeguy/Slim-Extras",
+        "description": "Smarty and Twig View Parser package for the Slim Framework",
+        "homepage": "http://github.com/codeguy/Slim-Views",
         "keywords": [
             "extensions",
+            "slimphp",
             "templating"
         ]
     }

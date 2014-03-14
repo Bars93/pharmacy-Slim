@@ -3,6 +3,6 @@
         "twig/twig": "1.*",
         "twig/extensions": "dev-master",
         "slim/slim": "2.*",
-        "slim/extras": "1.*"
+	"slim/views": "0.1.*"
     }
 }
