@@ -70,9 +70,9 @@ To use Twig options do the following:
 ```php
 $view = $app->view();
 $view->parserOptions = array(
-    'debug' => true,
-    'cache' => dirname(__FILE__) . '/cache'
-);
+      'debug' => true,
+      'cache' => dirname(__FILE__) . '/cache'
+  );
 ```
 
 In addition to all of this we also have a few helper functions which are included for both view parsers.
