@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c993387f-e66c-4617-a950-2f2508e8a4aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getstuffs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/slim/views/Slim/Views/README.md" afterPath="$PROJECT_DIR$/vendor/slim/views/Slim/Views/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
+    <list default="true" id="c993387f-e66c-4617-a950-2f2508e8a4aa" name="Default" comment="base.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/staff.tpl.html" />
+      <change type="DELETED" beforePath="C:\sites\pharmacy\_index.php5" afterPath="" />
+      <change type="DELETED" beforePath="C:\sites\pharmacy\getstuffs.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\sites\pharmacy\temp.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.tpl.html" afterPath="$PROJECT_DIR$/templates/base.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.tpl.html" afterPath="$PROJECT_DIR$/templates/main.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pharmacy.iws" />
@@ -34,16 +37,16 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="320" selection-end="320" vertical-scroll-proportion="0.20950705" vertical-offset="102" max-vertical-offset="1088">
+            <state line="46" column="6" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.8782288" vertical-offset="323" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getstuffs.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getstuffs.php">
+      <file leaf-file-name="staff.tpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/staff.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="374">
+            <state line="10" column="14" selection-start="224" selection-end="224" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -52,10 +55,8 @@
       <file leaf-file-name="base.tpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1428">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="29" column="84" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1428">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +64,7 @@
       <file leaf-file-name="main.tpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="61" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="289">
+            <state line="0" column="0" selection-start="0" selection-end="255" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -78,19 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="20" column="8" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -117,20 +109,22 @@
         <option value="$PROJECT_DIR$/temp.html" />
         <option value="$PROJECT_DIR$/vendor/slim/extras/Views/TwigView.php" />
         <option value="$PROJECT_DIR$/css/common.css" />
-        <option value="$PROJECT_DIR$/templates/base.tpl.html" />
-        <option value="$PROJECT_DIR$/templates/main.tpl.html" />
         <option value="$PROJECT_DIR$/vendor/slim/views/Slim/Views/README.md" />
         <option value="$PROJECT_DIR$/getstuffs.php" />
+        <option value="$PROJECT_DIR$/templates/base.tpl.html" />
+        <option value="$PROJECT_DIR$/getstaff.php" />
+        <option value="$PROJECT_DIR$/templates/main.tpl.html" />
+        <option value="$PROJECT_DIR$/templates/staff.tpl.html" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-45" />
+    <option name="y" value="30" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,7 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,8 +269,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -326,7 +320,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <frame x="-45" y="30" width="1346" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -334,10 +328,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.256391" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -363,13 +357,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="74" selection-start="0" selection-end="3086" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
@@ -384,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
@@ -401,13 +381,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="216" column="9" selection-start="7453" selection-end="7453" vertical-scroll-proportion="0.52816904" vertical-offset="3372" max-vertical-offset="18734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
@@ -442,32 +415,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getstuffs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="68" selection-start="376" selection-end="376" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1428">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="29" column="84" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="830" column="20" selection-start="22875" selection-end="22875" vertical-scroll-proportion="12.839788" vertical-offset="6834" max-vertical-offset="54893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="255" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/staff.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="224" selection-end="224" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="320" selection-end="320" vertical-scroll-proportion="0.20950705" vertical-offset="102" max-vertical-offset="1088">
+        <state line="46" column="6" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.8782288" vertical-offset="323" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
