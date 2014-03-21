@@ -1,6 +1,6 @@
 <?php
-require 'vendor/autoload.php';
-
+require_once 'vendor/autoload.php';
+require_once 'inc/BDauth.inc';
 $app = new \Slim\Slim(array(
     'templates.path' => 'templates',
     'view' => new \Slim\Views\Twig(),
